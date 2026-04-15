@@ -1,0 +1,28 @@
+
+.licence-container {    background-color: #fff;    border-left: 4px solid #cc99c2;    overflow: hidden;    padding: 25px 20px 20px 30px;    position: relative;}
+.licence-container::before {    color: #eee2ec;    content: "\f111";    content: "\f112";;    display: block;    font-family: dashicons;    font-size: 232px;    line-height: 1;    position: absolute;    right: 0;    text-align: center;    top: 10%;    width: 1em; z-index: 1}
+.licence-container .text {position: relative;z-index: 2}
+.licence-container h2, .licence-container p {position: relative}
+.licence-container input[type="text"] {width: 740px; max-width: 100%;}
+.licence-container .warning {color: #ca4a1f}
+
+#form_data td {vertical-align: top;}
+#form_data label{font-size: 12px; padding-top: 5px; margin:0px; font-weight: bold;}
+#form_data p.help {margin: 0px; font-size: 12px; font-style: normal;}
+#form_data .postbox {padding: 15px 20px}
+#form_data .postbox h4.heading {margin: 0px; padding-bottom: 10px}
+#form_data .postbox .text-input {width: 100%; padding: 5px 5px; margin: 0px;}
+#form_data .postbox .explain {padding-top: 10px; color: gray; font-style: italic; font-size: 11px; line-height: 17px;}    
+#form_data .important {    color: #ca4a1f;}
+#form_data .hide {display: none}
+#form_data.checkout_type_single_checkout ._show_on_single_checkout {display: table-row; }
+#form_data.checkout_type_each_store ._show_on_each_store {display: table-row}
+
+#use_global_cart_for_sites div p:first-child {margin-top: -5px; font-size: 12px}
+#use_global_cart_for_sites div p {margin: 1.5em 0}
+
+table.form-table th{text-align: right; font-weight: normal; width: 30%}
+table tr.title th {padding: 0px 10px 0px 0}
+table tr.title td{padding: 0px}
+table th h4 {margin: 0px;}
+        
